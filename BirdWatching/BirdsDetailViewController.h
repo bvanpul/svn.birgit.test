@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BirdsDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@class BirdSighting;
 
-@property (strong, nonatomic) id detailItem;
+@interface BirdsDetailViewController : UITableViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) BirdSighting *sighting;
+@property (weak, nonatomic) IBOutlet UILabel *birdNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+
 @end

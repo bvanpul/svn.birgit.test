@@ -17,6 +17,10 @@
 		5E15060215D3ACDC00703B4B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E15060015D3ACDC00703B4B /* MainStoryboard_iPad.storyboard */; };
 		5E15060515D3ACDC00703B4B /* BirdsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15060415D3ACDC00703B4B /* BirdsMasterViewController.m */; };
 		5E15060815D3ACDC00703B4B /* BirdsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15060715D3ACDC00703B4B /* BirdsDetailViewController.m */; };
+		5E15061015D3B71D00703B4B /* BirdSighting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15060F15D3B71D00703B4B /* BirdSighting.m */; };
+		5E15061315D3BA5A00703B4B /* BirdSightingDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15061215D3BA5A00703B4B /* BirdSightingDataController.m */; };
+		5E15061615D3E35700703B4B /* AddSightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15061515D3E35700703B4B /* AddSightingViewController.m */; };
+		5E7D3EB215D8E2EE00473C35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E7D3EB015D8E2EE00473C35 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,17 @@
 		5E15060415D3ACDC00703B4B /* BirdsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsMasterViewController.m; sourceTree = "<group>"; };
 		5E15060615D3ACDC00703B4B /* BirdsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsDetailViewController.h; sourceTree = "<group>"; };
 		5E15060715D3ACDC00703B4B /* BirdsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsDetailViewController.m; sourceTree = "<group>"; };
+		5E15060E15D3B71D00703B4B /* BirdSighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdSighting.h; sourceTree = "<group>"; };
+		5E15060F15D3B71D00703B4B /* BirdSighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSighting.m; sourceTree = "<group>"; };
+		5E15061115D3BA5A00703B4B /* BirdSightingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdSightingDataController.h; sourceTree = "<group>"; };
+		5E15061215D3BA5A00703B4B /* BirdSightingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSightingDataController.m; sourceTree = "<group>"; };
+		5E15061415D3E35700703B4B /* AddSightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSightingViewController.h; sourceTree = "<group>"; };
+		5E15061515D3E35700703B4B /* AddSightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSightingViewController.m; sourceTree = "<group>"; };
+		5E7D3EB115D8E2EE00473C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5E7D3EB315D8E3DE00473C35 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5E7D3EB415D8E3DE00473C35 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5E7D3EB515D8E3DE00473C35 /* nl */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5E7D3EB615D8E3DE00473C35 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +103,14 @@
 				5E15060015D3ACDC00703B4B /* MainStoryboard_iPad.storyboard */,
 				5E15060315D3ACDC00703B4B /* BirdsMasterViewController.h */,
 				5E15060415D3ACDC00703B4B /* BirdsMasterViewController.m */,
+				5E15061415D3E35700703B4B /* AddSightingViewController.h */,
+				5E15061515D3E35700703B4B /* AddSightingViewController.m */,
 				5E15060615D3ACDC00703B4B /* BirdsDetailViewController.h */,
 				5E15060715D3ACDC00703B4B /* BirdsDetailViewController.m */,
+				5E15060E15D3B71D00703B4B /* BirdSighting.h */,
+				5E15060F15D3B71D00703B4B /* BirdSighting.m */,
+				5E15061115D3BA5A00703B4B /* BirdSightingDataController.h */,
+				5E15061215D3BA5A00703B4B /* BirdSightingDataController.m */,
 				5E1505F215D3ACDC00703B4B /* Supporting Files */,
 			);
 			path = BirdWatching;
@@ -98,6 +119,7 @@
 		5E1505F215D3ACDC00703B4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E7D3EB015D8E2EE00473C35 /* Localizable.strings */,
 				5E1505F315D3ACDC00703B4B /* BirdWatching-Info.plist */,
 				5E1505F415D3ACDC00703B4B /* InfoPlist.strings */,
 				5E1505F715D3ACDC00703B4B /* main.m */,
@@ -142,6 +164,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				nl,
 			);
 			mainGroup = 5E1505DC15D3ACDC00703B4B;
 			productRefGroup = 5E1505E815D3ACDC00703B4B /* Products */;
@@ -161,6 +184,7 @@
 				5E1505F615D3ACDC00703B4B /* InfoPlist.strings in Resources */,
 				5E1505FF15D3ACDC00703B4B /* MainStoryboard_iPhone.storyboard in Resources */,
 				5E15060215D3ACDC00703B4B /* MainStoryboard_iPad.storyboard in Resources */,
+				5E7D3EB215D8E2EE00473C35 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +199,9 @@
 				5E1505FC15D3ACDC00703B4B /* BirdsAppDelegate.m in Sources */,
 				5E15060515D3ACDC00703B4B /* BirdsMasterViewController.m in Sources */,
 				5E15060815D3ACDC00703B4B /* BirdsDetailViewController.m in Sources */,
+				5E15061015D3B71D00703B4B /* BirdSighting.m in Sources */,
+				5E15061315D3BA5A00703B4B /* BirdSightingDataController.m in Sources */,
+				5E15061615D3E35700703B4B /* AddSightingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +212,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E1505F515D3ACDC00703B4B /* en */,
+				5E7D3EB615D8E3DE00473C35 /* nl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -193,6 +221,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E1505FE15D3ACDC00703B4B /* en */,
+				5E7D3EB315D8E3DE00473C35 /* nl */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -201,8 +230,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E15060115D3ACDC00703B4B /* en */,
+				5E7D3EB415D8E3DE00473C35 /* nl */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5E7D3EB015D8E2EE00473C35 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7D3EB115D8E2EE00473C35 /* en */,
+				5E7D3EB515D8E3DE00473C35 /* nl */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +337,7 @@
 				5E15060D15D3ACDC00703B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
